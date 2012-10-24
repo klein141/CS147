@@ -25,9 +25,15 @@
 		// functional bits that never change.
 		$result = mysql_query($query);
 		while ($row = mysql_fetch_assoc($result)) {
+<<<<<<< HEAD
 		
 		}
 		?>		
+=======
+			echo "<p>".$row["title"]."</p>";
+		}
+		?>
+>>>>>>> b3dacea09ff430bf4988b594f3098ed8216df35c
 		</table>
 		
 		<script type="text/javascript">
